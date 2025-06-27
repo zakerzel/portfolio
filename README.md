@@ -10,16 +10,14 @@ This GitHub Pages site contains an overview of my experience, certifications, an
 ---
 
 ## Certifications
-- Google Data Analytics Professional Certificate
+- Google Data Analytics Professional Certificate - Completed
 - Python for Everybody Specialization (University of Michigan) - Completed
-- AWS Cloud Practitioner (In progress)
 > Full list available on the [Certifications section](https://zakerzel.github.io/portfolio#certifications)
 
 ---
 
 ## Projects
 - ETL pipeline with AWS S3 (In progress)
-- Pandas data wrangling script (In progress)
 - “AI” neural network (Neurocat Project; In progress)
 > Explore all projects [here](https://zakerzel.github.io/portfolio#projects)
 
