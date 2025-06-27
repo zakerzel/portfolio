@@ -33,4 +33,4 @@ This GitHub Pages site contains an overview of my experience, certifications, an
 ## Contact
 - gaellp@outlook.com
 - [LinkedIn](https://linkedin.com/in/gael-alberto-lara-pe%C3%B1a-462472289/)
-- 🖥[GitHub Profile](https://github.com/zakerzel)
+- [GitHub Profile](https://github.com/zakerzel)
