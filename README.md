@@ -10,25 +10,25 @@ This GitHub Pages site contains an overview of my experience, certifications, an
 ---
 
 ## Certifications
-- Google Data Analytics Professional Certificate - Completed
-- Python for Everybody Specialization (University of Michigan) - Completed
-> Full list available on the [Certifications section](https://zakerzel.github.io/portfolio#certifications)
+- Data Analytics Professional Certificate (Google)
+- Python for Everybody Specialization (University of Michigan)
+- Computer Vision for Industrial Inspection (NVIDIA)
 
 ---
 
 ## Projects
-- ETL pipeline with AWS S3 (In progress)
-- “AI” neural network (Neurocat Project; In progress)
-> Explore all projects [here](https://zakerzel.github.io/portfolio#projects)
+- Neural network @ UPY (Neurocat Project; Team Neurocat)
+- Exoplanet NASA 2025 Project @ Anáhuac (Team Discover Exoplanets, 2025)
 
 ---
 
 ## Events
 - AI Workshop Coordinator @ Universidad Politécnica de Yucatán (Team Neurocat, 2024)
+- Hackaton NASA 2025 @ Universidad Anáhuac (Team Discover Exoplanets, 2025)
 
 ---
 
 ## Contact
-- gaellp@outlook.com
+- glape245@gmail.com
 - [LinkedIn](https://linkedin.com/in/gael-alberto-lara-pe%C3%B1a-462472289/)
 - [GitHub Profile](https://github.com/zakerzel)
