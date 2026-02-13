@@ -1,59 +1,243 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Gael Lara Peña - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gael Alberto Lara Peña — Data Engineering portfolio. Projects, certifications, events, and contact." />
+  <title>Gael Alberto Lara Peña | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <header>
-        <h1>Gael Alberto Lara Peña</h1>
-        <p>Data Engineering Student | AWS Learner | SQL & Python Enthusiast</p>
-        <nav>
-            <a href="#certifications">Certifications</a>
-            <a href="#projects">Projects</a>
-            <a href="#events">Events</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my personal portfolio! I'm a Data Engineering student passionate about data infrastructure, cloud technology, and AI. Currently pursuing cloud certification and actively building technical projects with Python, SQL, and AWS.</p>
-        </section>
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Google Data Analytics Professional Certificate</li>
-                <li>Python for Everybody Specialization (University of Michigan) - Completed</li>
-                <li>AWS Cloud Practitioner (In Progress)</li>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">G</div>
+        <div class="brand-text">
+          <div class="brand-name">Gael Alberto Lara Peña</div>
+          <div class="brand-role">Data Engineering • Portfolio</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#events">Events</a>
+        <a class="btn btn-ghost" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="kicker">Data Engineering Student • UPY</p>
+          <h1>Building reliable data pipelines and practical ML systems.</h1>
+          <p class="lead">
+            I focus on end-to-end projects: ingestion, transformation, orchestration, storage, visualization,
+            and deployment. I like clean documentation, reproducible setups, and measurable performance.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="#certifications">See certifications</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <div class="meta-label">Email</div>
+              <a class="meta-value" href="mailto:glape245@gmail.com">glape245@gmail.com</a>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Location</div>
+              <div class="meta-value">Yucatán, México</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Focus</div>
+              <div class="meta-value">Data pipelines • ML • Cloud</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Quick profile">
+          <div class="panel-card">
+            <h2>Quick profile</h2>
+            <ul class="clean-list">
+              <li><span class="dot" aria-hidden="true"></span> Data Engineering at Universidad Politécnica de Yucatán (UPY)</li>
+              <li><span class="dot" aria-hidden="true"></span> Strong emphasis on documentation and reproducibility</li>
+              <li><span class="dot" aria-hidden="true"></span> Interested in scalable systems and applied ML</li>
             </ul>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>ETL pipeline with AWS S3:</strong> In progress</li>
-                <li><strong>Pandas data wrangling script:</strong> In progress</li>
-                <li><strong>“AI” Neural Network - Neurocat Project:</strong> In progress</li>
+
+            <div class="panel-actions">
+              <a class="btn btn-ghost full" href="#contact">Get in touch</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>
+            This portfolio highlights selected work across data engineering, cloud deployment, and applied machine learning.
+            The goal is clarity: what was built, why, and how to reproduce it.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <div class="card">
+            <h3>What I work on</h3>
+            <p>
+              ETL/ELT workflows, orchestration (e.g., Airflow), storage layers (SQL/NoSQL), dashboards,
+              and performance profiling for compute-heavy routines.
+            </p>
+          </div>
+          <div class="card">
+            <h3>How I work</h3>
+            <p>
+              I prefer simple architectures, readable code, clean commits, and structured documentation.
+              I aim for deployments that run consistently across machines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certifications</h2>
+          <p>Verified learning milestones and training completed.</p>
+        </div>
+
+        <div class="grid three">
+          <article class="card">
+            <div class="tag">Google</div>
+            <h3>Google Cloud — Intro / Foundations</h3>
+            <p class="muted">Cloud fundamentals and platform concepts.</p>
+          </article>
+
+          <article class="card">
+            <div class="tag">University of Michigan</div>
+            <h3>Applied Data / Programming Track</h3>
+            <p class="muted">Coursework focused on practical data workflows.</p>
+          </article>
+
+          <article class="card">
+            <div class="tag">NVIDIA</div>
+            <h3>AI / CUDA & GPU Foundations</h3>
+            <p class="muted">GPU concepts and applied AI tooling.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Selected projects with emphasis on scope, outcome, and implementation.</p>
+        </div>
+
+        <div class="stack">
+          <article class="card project">
+            <div class="project-top">
+              <h3>Neurocat — Neural Networks Workshop</h3>
+              <span class="pill">Workshop</span>
+            </div>
+            <p>
+              Designed and delivered a workshop focused on the fundamentals of neural networks, practical demos,
+              and connecting concepts to real ML workflows.
+            </p>
+            <ul class="bullets">
+              <li>Clear learning path from intuition → math → implementation.</li>
+              <li>Hands-on examples and structured material for students.</li>
             </ul>
-        </section>
-        <section id="events">
-            <h2>Events & Talks</h2>
-            <ul>
-                <li>AI Workshop Coordinator @ Universidad Politécnica de Yucatán (Team Neurocat, 2024)</li>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>NASA Hackathon 2025 — Exoplanets AI Verifier</h3>
+              <span class="pill">Hackathon</span>
+            </div>
+            <p>
+              Prototype system for assisting with exoplanet signal verification using machine learning,
+              interactive visualization, and a simple web interface.
+            </p>
+            <ul class="bullets">
+              <li>ML pipeline experimentation (feature engineering + evaluation).</li>
+              <li>Web UI to explore predictions and data context.</li>
             </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: gaellp@outlook.com</p>
-            <p>GitHub: <a href="https://github.com/zakerzel" target="_blank">zakerzel</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/gael-alberto-lara-pe%C3%B1a-462472289/" target="_blank">Profile</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Gael Lara Peña</p>
-    </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Events</h2>
+          <p>Academic and community activities that complement project work.</p>
+        </div>
+
+        <div class="grid two">
+          <article class="card">
+            <div class="tag">UPY • 2024</div>
+            <h3>Workshop Participation (UPY)</h3>
+            <p class="muted">Hands-on academic workshop and collaborative learning.</p>
+          </article>
+
+          <article class="card">
+            <div class="tag">Hackathon • 2025</div>
+            <h3>NASA Space Apps / Hackathon Event</h3>
+            <p class="muted">Rapid prototyping, teamwork, and applied problem solving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>For collaboration, opportunities, or project discussion.</p>
+        </div>
+
+        <div class="card contact-card">
+          <div class="contact-row">
+            <div>
+              <div class="contact-label">Email</div>
+              <a class="contact-value" href="mailto:glape245@gmail.com">glape245@gmail.com</a>
+            </div>
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="mailto:glape245@gmail.com">Email me</a>
+              <a class="btn btn-secondary" href="#projects">Projects</a>
+            </div>
+          </div>
+
+          <p class="muted small">
+            Tip: add GitHub/LinkedIn buttons here when you’re ready and I te lo dejo igual de clean.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="muted small">© <span id="year"></span> Gael Alberto Lara Peña</div>
+      <div class="muted small">Built for clarity • Minimal UI</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
