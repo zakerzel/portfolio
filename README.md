@@ -24,7 +24,7 @@ This GitHub Pages site contains an overview of my experience, certifications, an
 
 ## Events
 - AI Workshop Coordinator @ Universidad Politécnica de Yucatán (Team Neurocat, 2024)
-- Hackaton NASA 2025 @ Universidad Anáhuac (Team Discover Exoplanets, 2025)
+- Hackaton NASA 2025 @ Universidad Anáhuac (Team Exoplanets AI Verifier, 2025)
 
 ---
 
